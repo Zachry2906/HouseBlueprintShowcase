@@ -2,6 +2,7 @@
   "name": "tailwindcss",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://Zachry2906.github.io/mobileRia/",
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -956,16 +956,12 @@ video {
   background-image: url('img/fix.png');
 }
 
-.bg-\[url\(\'img\/mmm\.jpg\'\)\]{
-  background-image: url('img/mmm.jpg');
+.bg-\[url\(\'img\/src\.png\'\)\]{
+  background-image: url('img/src.png');
 }
 
 .bg-\[url\(\'main\.jpg\'\)\]{
   background-image: url('main.jpg');
-}
-
-.bg-\[url\(\'img\/src\.png\'\)\]{
-  background-image: url('img/src.png');
 }
 
 .bg-cover{
