@@ -1,0 +1,142 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./../../dist/output.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="w-full bg-transparent z-10 flex absolute top-0 left-0 items-center">
+<div class="container">
+    <div class="flex item-center justify-between relative">
+        <div class="px-4">
+            <a href="#home" class="text-lg font-bold block text-blue-500 py-4">Ahmad Zakaria</a>
+        </div>
+        <div class="flex item-center px-4 py-4">
+            <button id="burgir" type="button" class="absolute block right-4">
+                <span class="burgir-line transition duration-300 ease-in-out"></span>
+                <span class="burgir-line transition duration-300 ease-in-out"></span>
+                <span class="burgir-line transition duration-300 ease-in-out"></span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<nav id="nav" class="absolute py-5 bg-white shadow-xl rounded-md max-w-[250px] w-full right-4 top-full">
+    <ul class="block">
+        <li class="group">
+            <a href="#home" class="text-base py-2 mx-8">Beranda</a>
+        </li>
+    </ul>
+</nav>
+</header>
+<h1 id="#" class="text-6xl text-center font-bold my-20">Mari Belajar <span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">TailwindCSS</span></h1>
+
+<div class="max-w-lg border border-slate-200 mx-auto p-5 rounded-xl shadow-md group hover:bg-slate-600 transition duration-200 font-serif ">
+    <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white">My Card</h5>
+    <p class="text-slate-500 group-hover:text-white first-letter:text-6xl first-letter:float-left first-letter:mr-3 text-justify">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit asperiores odit velit tempora corrupti ut, cumque, accusamus iste voluptatibus, mollitia quae laborum explicabo debitis atque harum eligendi. Odit nam eveniet illum ex dicta hic, quidem beatae culpa corporis omnis. Eveniet!
+    </p>
+</div>
+<div class="max-w-lg border border-slate-200 mx-auto mt-10 shadow-md rounded-xl font-serif p-5 animate-bounce">
+    <form action="" method="post"> 
+        <label for="email">
+            <span class="block font-semibold mb-1 text-slate-600">Email</span>
+            <input placeholder="Tulis email...." type="email" id="email" class="px-3 py-2 border shadow rounded w-full block text-sm focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 placeholder:text-slate-400  invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer">
+            <p class="text-xs invisible peer-invalid:visible m-2 text-pink-700">Email tidak valid</p>
+        </label>
+    </form>
+</div>
+<button class="bg-slate-400 rounded-full px-5 my-10 font-semibold py-2 block mx-auto hover:bg-slate-200 hover:rotate-90 origin-top-left transition shadow-lg text-white hover:text-slate-400 mb-20">Simpan</button>
+
+<div class="container mx-auto mb-10">
+    <div class="border rounded-xl shadow-lg p-10 m-10 relative">
+        <div class="h-10 w-10 bg-pink-200 rounded-full flex absolute -top-5 -right-5 cursor-pointer"><span class="text m-auto">❌</span></div>
+        <div class="h-10 w-10 bg-slate-200 rounded-full flex fixed bottom-5 right-5 cursor-pointer"><a href="#" class="text m-auto">⬆️</a></div>
+        <img src="https://images.unsplash.com/photo-1524856949007-80db29955b17?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="150" alt="gambar" class="float-left mr-5 rounded-lg my-auto" srcset="">
+        <p class="text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est accusantium, consectetur harum eaque perferendis quasi dicta. Numquam tempora adipisci repellat dolores quia! Dolores ipsam eius quasi vel! Minima consequuntur tempora iste incidunt quaerat commodi molestiae delectus, reprehenderit hic, nihil maiores. Qui omnis perspiciatis provident, natus accusantium necessitatibus temporibus quas placeat.
+        </p>
+    </div>
+</div>
+<h2 class="text-center text-2xl font-bold">My Galley</h2>
+<div class="container mx-auto mt-5 px-6 sm:flex sm:flex-wrap sm:gap-6 sm:justify-center">
+    <div class="rounded-md shadow-lg bg-white overflow-hidden mb-3 sm:mb-0 sm:w-64 md:w-80 lg:w-72 hover:scale-105 cursor-pointer transition ">
+        <img src="https://source.unsplash.com/600x400" class="w-full" alt="hehe">
+        <div class="px-4 py-4">
+            <div class="font-bold text-xl mb">Image Title</div>
+            <p class="text-sm">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quaerat enim ad illo reprehenderit magnam cum beatae itaque repudiandae iusto?
+            </p>
+        </div>
+    </div>
+    <div class="rounded-md shadow-lg bg-white overflow-hidden mb-3 sm:mb-0 sm:w-64 md:w-80 lg:w-72 hover:scale-105 cursor-pointer transition ">
+        <img src="https://source.unsplash.com/600x400" class="w-full" alt="hehe">
+        <div class="px-4 py-4">
+            <div class="font-bold text-xl mb">Image Title</div>
+            <p class="text-sm">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quaerat enim ad illo reprehenderit magnam cum beatae itaque repudiandae iusto?
+            </p>
+        </div>
+    </div>
+    <div class="rounded-md shadow-lg bg-white overflow-hidden mb-3 sm:mb-0 sm:w-64 md:w-80 lg:w-72 hover:scale-105 cursor-pointer transition ">
+        <img src="https://source.unsplash.com/600x400" class="w-full" alt="hehe">
+        <div class="px-4 py-4">
+            <div class="font-bold text-xl mb">Image Title</div>
+            <p class="text-sm">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quaerat enim ad illo reprehenderit magnam cum beatae itaque repudiandae iusto?
+            </p>
+        </div>
+    </div>
+    <div class="rounded-md shadow-lg bg-white overflow-hidden mb-3 sm:mb-0 sm:w-64 md:w-80 lg:w-72 hover:scale-105 cursor-pointer transition ">
+        <img src="https://source.unsplash.com/600x400" class="w-full" alt="hehe">
+        <div class="px-4 py-4">
+            <div class="font-bold text-xl mb">Image Title</div>
+            <p class="text-sm">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quaerat enim ad illo reprehenderit magnam cum beatae itaque repudiandae iusto?
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="mt-64 p-2 grid grid-cols-2 gap-2 md:grid-cols-4 md:p-4 md:gap-4">
+    <h2 class="h-15 text-xl font-semibold md:col-start-4 md:row-start-2">Welcome Too</h2>
+    <div class="h1 text-lg font-bold md:col-start-2 md:row-start-2">aryazzakaria76@gmail.com</div>
+
+    <div class="h-15 bg-blue-400 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+        <div class="w-full h-full bg-[url('https://source.unsplash.com/600x400')] bg-cover bg-center group-hover:scale-125 group-hover:rotate-12 transition-all duration-500"></div>
+    </div>
+    <div class="h-15 bg-blue-400 aspect-[4/3] md:col-start-3 rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden">
+        <div class="w-full h-full bg-[url('https://source.unsplash.com/600x400')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-400 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden">
+        <div class="w-full h-full bg-[url('https://source.unsplash.com/600x400')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-400 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden">
+        <div class="w-full h-full bg-[url('https://source.unsplash.com/600x400')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-400 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden">
+        <div class="w-full h-full bg-[url('https://source.unsplash.com/600x400')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-400 aspect-[4/3] md:col-start-2 rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden">
+        <div class="w-full h-full bg-[url('https://source.unsplash.com/600x400')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-400 aspect-[4/3] md:col-start-4 rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden">
+        <div class="w-full h-full bg-[url('https://source.unsplash.com/600x400')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-400 aspect-[4/3] rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden">
+        <div class="w-full h-full bg-[url('https://source.unsplash.com/600x400')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-400 aspect-[4/3] md:col-start-3 rounded-lg  md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden">
+        <div class="w-full h-full bg-[url('https://source.unsplash.com/600x400')] bg-cover bg-center"></div>
+    </div>
+    <div class="h-15 bg-blue-400 aspect-[4/3] md:col-start-3 rounded-lg md:aspect-[3/4] lg:aspect-[4/3] overflow-hidden">
+        <div class="w-full h-full bg-[url('https://source.unsplash.com/600x400')] bg-cover bg-center"></div>
+    </div>
+</div>
+<div class="mb-60"></div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
