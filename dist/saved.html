@@ -7,14 +7,18 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/>
 </head>
 <body class="font-body">
-    <div id="containerAcc" class="container bg-[url('img/fix.png')] w-full h-full bg-center" style="padding-bottom: 112px;">
-        <div class="top pt-10 ml-7 space-x-20 my-auto">
-            <div id="backAcc" class="back rounded-lg w-10 h-10 text-4xl main"><a href="main.html">⬅️</a></div>
+    <div id="containerAcc" class="container bg-[url('img/fix.png')] w-full h-full bg-center pb-[112px]">
+
+        <!-- arrow sampai search -->
+        <div class="top pt-10 ml-7">
+            <i class="fa-solid fa-arrow-left text-slate-50 "></i>
         </div>
         <div class="main ml-10 mt-7">
-            <h1 class="font-bold text-4xl mb-3">Saved Item</h1>
-            <div class="rounded-lg h-14 w-80 bg-white"> <p class="ml-5 pt-4 text-xl text-slate-500">Search</p></div>
+            <h1 class=" text-4xl mb-3 text-slate-200">Saved Item</h1>
+            <input type="text" placeholder="&nbsp&nbsp Search" id="src" class="w-[320px] h-[50px] bg-white rounded-md"><p id="x" class="hidden ml-4"><i class="fa-regular fa-circle-xmark fa-lg" style="color: #ffffff;"></i></p>
         </div>
+
+        <!-- isi konten -->
         <div class="isi grid grid-cols-3 w-[330px] rounded-lg bg-white mt-11 ml-8 bg-opacity-60">
             <img class="m-3" src="img/m1m.png" alt="" srcset="">
             <div class="detail mt-3">
@@ -28,6 +32,7 @@
                 <p class="text-sm text-slate-500"><i class="fa-solid fa-bath"></i>&nbsp&nbsp 1 Bathroom</p>
             </div>
         </div>
+        
         <div class="isi grid grid-cols-3 w-[330px] rounded-lg bg-white mt-2 ml-8 bg-opacity-60">
             <img class="m-3" src="img/m3m.png" alt="" srcset="">
             <div class="detail mt-3">
@@ -67,13 +72,13 @@
                 <p class="text-sm text-slate-500"><i class="fa-solid fa-bath"></i>&nbsp&nbsp 1 Bathroom</p>
             </div>
         </div>
-                <div class="navbar h-24 w-full bottom-0 border bg-white fixed ">
-                    <div class="flex justify-center items-center space-x-20 my-auto">
-                        <a href="main.html"><img src="img/icon.png" alt="" srcset=""></a>
-                        <a href="saved.html"><img src="img/bm.png"></a>
-                        <a href="acc.html"><img src="img/acc.png"></a>
-                    </div>
-                </div>
+        <div class="navbar h-14 w-full bottom-0 fixed bg-white">
+            <div class="flex justify-center space-x-20 mt-4">
+                <a href="main.html"><i class="fa-solid fa fa-home text-2xl" style="color: #000000;"></i></a>
+                <a href="saved.html"><i class="fa-solid fa fa-bookmark text-2xl" style="color: #000000;"></i></a>
+                <a href="acc.html"><i class="fa-solid fa fa-user text-2xl" style="color: #000000;"></i></a>
+            </div>
+        </div>
             </div>
     </div>
 <script src="js/acc.js"></script>

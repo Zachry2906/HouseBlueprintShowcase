@@ -27,12 +27,12 @@ deleteX.forEach(e => {
 
 const isiHapus = document.createElement('div');
 isiHapus.innerHTML = `
-<div class="flash h-30 w-[330px] rounded bg-white ml-7 mr-7 text-center pb-6  mt-32">
+<div class="flash h-30 w-[330px] rounded bg-white ml-7 mr-7 text-center pb-6 mt-32">
 <h1 class="pt-4 text-[34px] ml-3 mr-3 mb-2"><b>are you sure want to sign out?</b></h1>
-<p class="ml-3 text-slate-400 mb-4">We definetly dont want that</p>
+<p class="ml-3 text-slate-400 mb-4">We definetly don't want that</p>
 <div class="mr-3 ml-3 text-md">
-    <div id="bagus" class="flex items-center justify-center mx-auto rounded-lg h-14  text-black bg-slate-400 mb-2">No, I want to stay</div>
-    <div id="yes" class="flex items-center justify-center mx-auto rounded-lg h-14 text-black bg-slate-200"> <a href="index.html"> Yep, sign out</div>
+<button id="bagus" class="flex items-center justify-center mx-auto rounded-lg h-10 p-3 text-black bg-slate-400" style="padding:10px;">No, I want to stay</button>
+<button id="yes" class="flex items-center justify-center mx-auto rounded-lg h-10 mt-3 text-black bg-slate-200" style="padding:10px;" ><a href="index.html"> Yep, sign out</a></button>
 </div>
   `
 isiHapus.setAttribute('id', 'isiHapus');

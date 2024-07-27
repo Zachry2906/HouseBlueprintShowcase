@@ -42,6 +42,7 @@ setTimeout(function() {
     isi.remove();
     container.appendChild(removeable);
     container.classList.add(`bg-[url('main.jpg')]`);
+    container.style.
     container.classList.remove(`bg-[url('img/src.png')]`);
   });
 
