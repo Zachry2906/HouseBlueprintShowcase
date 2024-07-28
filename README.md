@@ -37,4 +37,4 @@ Please make sure to update tests as appropriate.
 [Website](https://zachry2906.github.io/HouseBlueprintShowcase/dist/index.html) 
 Please open it on a phone, because this is a phone-based web and not yet responsive
 
-[UI/UX Figma](https://www.figma.com/design/YUMU0nJDu3bKSePHHKGOGK/Blueprints-Marketplace?node-id=0-1&t=JQB2p5SZhRLNTUaD-1) or you can visiting the UI/UX in Figm
+[UI/UX Figma](https://www.figma.com/design/YUMU0nJDu3bKSePHHKGOGK/Blueprints-Showcase?node-id=0-1&t=cF9Vgz3QjkhPAAJ7-1) or you can visiting the UI/UX in Figm
